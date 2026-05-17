@@ -1,0 +1,60 @@
+:root {
+    --yellow: #e9ff70;
+    --orange: #ffd670;
+    --salmon: #ff9770;
+    --pink: #ff70a6;
+    --blue: #70d6ff;
+    --dark-yellow: #8f9467;
+    --yellow-white: #fafbe9;
+    --yellow-black: #1b3d2f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--yellow);
+    display: flex;
+}
+
+.portfolio,
+.blog {
+    text-align: center;
+}
+
+.container {
+    background-color: var(--yellow-white);
+    border-radius: 16px;
+    padding: 32px;
+    margin: 32px;
+}
+
+.portfolio {
+    flex: 0.3;
+}
+
+.blog {
+    flex: 0.7;
+}
+
+p {
+    display: inline;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 8px;
+}
+
+.days {
+    background-color: var(--yellow-white);
+    border-radius: 16px;
+    padding: 32px;
+    margin: 32px;
+}
