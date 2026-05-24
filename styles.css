@@ -79,3 +79,18 @@ h5 {
 .what {
     font-weight: bold;
 }
+
+.next-btn {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    background-color: #1b3d2f;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.next-btn:hover {
+    background-color: #255340;
+}
